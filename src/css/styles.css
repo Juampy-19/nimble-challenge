@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    justify-content: center;
+}
+
+.contPositions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.jobItem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    align-items: center;
+    gap: 15px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.jobItem input {
+    font-size: 14px;
+}
+
+.jobsList {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(8, 2, 76);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(72, 55, 250);
+}
